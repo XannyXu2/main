@@ -53,28 +53,6 @@
             <section id="body">
                 <table>
                     <tr>
-                        <th colspan="2">
-                            <article class="articleHeader">
-                                Giveaway Information
-                            </article>
-                        </th>
-                    </tr>
-                    <tr>
-                        <td>
-                            We are giving away a mystery box containing 3 cubes, and 3 other twist puzzles!
-                        </td>
-                        <td>
-                            <img src="img/giveaway.png">
-                        </td>
-                    </tr>
-                    <tr>
-                        <th colspan="2">
-                            <article class="articleHeader">
-                                Complete this form to Enter
-                            </article>
-                        </th>
-                    </tr>
-                    <tr>
                         <td colspan="2">
                             <form action="mailto:xanderbezanson@gmail.com?subject=Help%20Form" method="post" enctype="text/plain">
                                 <table>
@@ -109,7 +87,7 @@
                                     </tr>
                                     <tr>
                                         <th colspan="2" class="formheader">
-                                            Mailing Information
+                                            Mailing Information (Optional)
                                         </th>
                                     </tr>
                                     <tr>
@@ -117,7 +95,7 @@
                                             Address
                                         </td>
                                         <td class="td2">
-                                            <input required type="text" name="Address">
+                                            <input type="text" name="Address">
                                         </td>
                                     </tr>
                                     <tr>
@@ -125,7 +103,7 @@
                                             City
                                         </td>
                                         <td class="td2">
-                                            <input required type="text" name="City" minlength="2" maxlength="3" placeholder="Ex: HFX">
+                                            <input type="text" name="City" minlength="2" maxlength="3" placeholder="Ex: HFX">
                                         </td>
                                     </tr>
                                     <tr>
@@ -133,7 +111,7 @@
                                             Province
                                         </td>
                                         <td class="td2">
-                                            <select required name="Province">
+                                            <select name="Province">
                                                 <option value="Alberta">Alberta</option>
                                                 <option value="British Columbia">British Columbia</option>
                                                 <option value="Manitoba">Manitoba</option>
@@ -155,44 +133,54 @@
                                             Postal Code
                                         </td>
                                         <td class="td2">
-                                            <input required type="text" name="PostalCode" pattern="[A-Za-z][0-9][A-Za-z][0-9][A-Za-z][0-9]" placeholder="Ex: A1B2C3">
+                                            <input type="text" name="PostalCode" pattern="[A-Za-z][0-9][A-Za-z][0-9][A-Za-z][0-9]" placeholder="Ex: A1B2C3">
                                         </td>
                                     </tr>
                                     <tr>
                                         <th colspan="2" class="formheader">
-                                            Additional Information
+                                            Preferred Contact Method
                                         </th>
                                     </tr>
                                     <tr>
                                         <td class="td1">
-                                            Favourite Colour
+                                            Contact Method
                                         </td>
                                         <td class="td2">
-                                            <input type="color" name="Colour">
+                                            <select name="ContactMethod">
+                                                <option value="E-Mail">E-Mail</option>
+                                                <option value="Text Message">Text Message</option>
+                                                <option value="Phone Call">Phone Call</option>
+                                                <option value="Letter">Letter</option>
+                                            </select>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th colspan="2" class="formheader">
+                                            Ticket Information
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <td class="td1">
+                                            Ticket reason
+                                        </td>
+                                        <td class="td2">
+                                            <input type="text" name="TicketReason">
                                         </td>
                                     </tr>
                                     <tr>
                                         <td class="td1">
-                                            Time since you started<br>cubing in Years
+                                            Date of submission
                                         </td>
                                         <td class="td2">
-                                            <input type="number" min="0" max="100" name="TimeCubing">
+                                            <input type="date" name="Date">
                                         </td>
                                     </tr>
                                     <tr>
                                         <td class="td1">
-                                            Fastest solve in seconds
+                                            Additional information
                                         </td>
                                         <td class="td2">
-                                            <input type="number" min="0" max="1000" name="FastestSolve">
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="td1">
-                                            Favourite twist puzzle type
-                                        </td>
-                                        <td class="td2">
-                                            <input type="text" name="FavouritePuzzleType">
+                                            <input type="text" minlength="3" maxlength="50" size="50" name="MoreInfo">
                                         </td>
                                     </tr>
                                     <tr>
