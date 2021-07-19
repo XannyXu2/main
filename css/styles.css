@@ -81,15 +81,18 @@ th {
 img {
     width: 150px;
 }
-a:visited, a:hover, a:active, a:link {
+a:visited, a:active, a:link {
     color: #8ea8eb;
-    text-decoration: none;
+}
+a:hover {
+    color: #000000;
 }
 .plans {
     width: 50%;
 }
 a {
     font-size: 20px;
+    text-decoration: none;
 }
 .formheader {
     font-size: 25px;
@@ -128,5 +131,9 @@ a {
     }
 }
 nav:hover{
-    background-color: #;
+    background-color: #8ea8eb;
+}
+nav {
+    width: 100%;
+    color: #8ea8eb;
 }
