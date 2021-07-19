@@ -1,0 +1,129 @@
+body {
+    font-family: trebuchet ms;
+    background-image: url(https://xannyxu2.github.io/day10/rubiks.png);
+    background-attachment: fixed;
+    background-size: 70px;
+    background-repeat: space;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+thead {
+    font-weight: bold;
+    color: #ffff00;
+    background-color: #0000ff;
+}
+#table1 {
+    background-color: #00ff00;
+}
+#table2 {
+    background-color: #ff0000;
+}
+th, td {
+    padding: 10px;
+}
+col {
+    background-color: #0000ff55;
+}
+#background {
+    background-color: #ffffffaa;
+    width: 100%;
+}
+table {
+    width: 100%;
+}
+#body {
+    width: 80%;
+    background-color: #ffffff;
+    margin: auto;
+    border-left: 1px solid #00000055;
+    border-right: 1px solid #00000055;
+}
+footer {
+    border-top: #000000 solid;
+}
+header {
+    border-bottom: #000000 solid;
+    padding-top: 20px;
+
+}
+.articleHeader {
+    border-top: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+    padding: 20px;
+    background-color: #8ea8eb;
+}
+.headerFooter {
+    background-color: #2f51b1;
+    color: #ffffff;
+}
+td {
+    width: 50%;
+}
+th {
+    padding: 0;
+    font-size: 30px;
+}
+.logo {
+    width: 10%;
+}
+.headertext {
+    width: 80%;
+}
+.indexarticlecontent {
+    text-align: left;
+    width: 66%;
+}
+.indexsectioncontent {
+    width: 33%;
+}
+img {
+    width: 150px;
+}
+a:visited, a:hover, a:active, a:link {
+    color: #8ea8eb;
+    text-decoration: none;
+}
+.plans {
+    width: 50%;
+}
+a {
+    font-size: 20px;
+}
+.formheader {
+    font-size: 25px;
+}
+.td1 {
+    text-align: right;
+}
+.td2 {
+    text-align: left;
+}
+@media only screen and (max-width: 720px) {
+    nav {
+        display: none;
+    }
+}
+@media only screen and (max-width: 720px) {
+    .logo {
+        display: none;
+    }
+}
+#th {
+    font-size: 30px;
+}
+@media only screen and (max-width: 720px) {
+    .td1 {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 720px) {
+    .td2 {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+}
