@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Day 10
+        </title>
+        <link rel="stylesheet" href="https://xannyxu2.github.io/day7/styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--
+            Date Modified: July 19 2021
+            Modified By: Xander Bezanson
+        -->
+    </head>
+    <body>
+        <header class="headerFooter" id="topofpage">
+            <table>
+                <tr>
+                    <td class="logo">
+                        <img src="rubiks.png" style="width: 100px;">
+                    </td>
+                    <th class="headertext">
+                        <a href="index.html" id="th">
+                            Rubiks Cube Site
+                        </a>
+                    </th>
+                    <td class="logo">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <nav>
+                            <a href="index.html">
+                                Home Page | 
+                            </a>
+                            <a href="types.html">
+                                Types of Cubes | 
+                            </a>
+                            <a href="giveaway.html">
+                                Giveaway | 
+                            </a>
+                            <a href="sitePlan.html">
+                                Site Plan
+                            </a>
+                        </nav>
+                    </td>
+                </tr>
+            </table>
+        </header>
+        <section id="background">
+            <section id="body">
+                <table>
+                    <tr>
+                        <th colspan="2">
+                            <article class="articleHeader">
+                                Giveaway Information
+                            </article>
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>
+                            We are giving away a mystery box containing 3 cubes, and 3 other twist puzzles!
+                        </td>
+                        <td>
+                            <img src="giveaway.png">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th colspan="2">
+                            <article class="articleHeader">
+                                Complete this form to Enter
+                            </article>
+                        </th>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <form action="mailto:xanderbezanson@gmail.com?subject=Help%20Form" method="post" enctype="text/plain">
+                                <table>
+                                    <tr>
+                                        <th colspan="2" class="formheader">
+                                            Contact Information
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <td class="td1">
+                                            Phone Number
+                                        </td>
+                                        <td class="td2">
+                                            <input required name="PhoneNumber" type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Ex: 123-456-7890" size="15"/>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="td1">
+                                            Email Address
+                                        </td>
+                                        <td class="td2">
+                                            <input required type="email" name="Email" placeholder="Ex: name@gmail.com" size="15">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th colspan="2" class="formheader">
+                                            Mailing Information
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <td class="td1">
+                                            Address
+                                        </td>
+                                        <td class="td2">
+                                            <input required type="text" name="Address" size="15">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="td1">
+                                            City
+                                        </td>
+                                        <td class="td2">
+                                            <input required type="text" name="City" size="15" minlength="2" maxlength="3" placeholder="Ex: HFX">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="td1">
+                                            Province
+                                        </td>
+                                        <td class="td2">
+                                            <select required name="Province">
+                                                <option value="Alberta">Alberta</option>
+                                                <option value="British Columbia">British Columbia</option>
+                                                <option value="Manitoba">Manitoba</option>
+                                                <option value="New Brunswick">New Brunswick</option>
+                                                <option value="Newfoundland and Labrador">Newfoundland and Labrador</option>
+                                                <option value="Northwest Territories">Northwest Territories</option>
+                                                <option value="Nova Scotia">Nova Scotia</option>
+                                                <option value="Nunavut">Nunavut</option>
+                                                <option value="Ontario">Ontario</option>
+                                                <option value="Prince Edward Island">Prince Edward Island</option>
+                                                <option value="Quebec">Quebec</option>
+                                                <option value="Saskatchewan">Saskatchewan</option>
+                                                <option value="Yukon">Yukon</option>
+                                            </select>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="td1">
+                                            Postal Code
+                                        </td>
+                                        <td class="td2">
+                                            <input required type="text" name="PostalCode" size="15" pattern="[a-z][0-9][a-z][0-9][a-z][0-9]" placeholder="Ex: A1B2C3">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th colspan="2" class="formheader">
+                                            Additional Information
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <td class="td1">
+                                            Favourite Colour
+                                        </td>
+                                        <td class="td2">
+                                            <input type="color" name="Colour">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="td1">
+                                            Time since you started<br>cubing in Years
+                                        </td>
+                                        <td class="td2">
+                                            <input type="number" min="0" max="100" name="TimeCubing">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="td1">
+                                            Fastest solve in seconds
+                                        </td>
+                                        <td class="td2">
+                                            <input type="number" min="0" max="1000" name="FastestSolve">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="td1">
+                                            <input type="submit" name="Send">
+                                        </td>
+                                        <td class="td2">
+                                            <input type="reset" name="Restart">
+                                        </td>
+                                    </tr>
+                                </table>
+                            </form>
+                        </td>
+                    </tr>
+                </table>
+            </section>
+        </section>
+        <footer class="headerFooter">
+            <table>
+                <tr>
+                    <td class="logo">
+                        <img src="logo.png" style="width: 100px;">
+                    </td>
+                    <td>
+                        <a href="#topofpage">To top of page</a>
+                    </td>
+                    <td class="logo">
+                        <a href="sitePlan.html">Site Plan</a>
+                    </td>
+                </tr>
+            </table>
+        </footer>
+    </body>
+</html>
