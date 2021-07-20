@@ -134,6 +134,51 @@ nav:hover{
     background-color: #8ea8eb;
 }
 nav {
-    width: 100%;
     color: #8ea8eb;
+    margin: auto;
+    width: 640px;
+}
+#helplink {
+    width: 10%;
+}
+.footerlogo {
+    width: 10%;
+}
+@media only screen and (min-width: 721px) {
+    #mininav {
+        display: none;
+    }
+}
+#mininav {
+    width: 100%;
+}
+@media only screen and (max-width: 720px) {
+    .indexsectioncontent img {
+        width: 90%;
+    }
+}
+.dropdowncontent {
+    display:none;
+    position: absolute;
+    background-color: #2f51b1;
+    border: 1px solid #000000;
+    padding: 12px 16px;
+}
+.dropdown:hover .dropdowncontent {
+    display: block;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+  font-size: 20px; 
+  color: #8ea8eb;
+}
+#logoimage {
+    width: 100%;
+}
+#devlogo {
+    width: 100px;
+}
+#citationlink {
+    font-size: 10px;
 }
