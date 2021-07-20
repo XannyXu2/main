@@ -9,22 +9,8 @@ body {
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-thead {
-    font-weight: bold;
-    color: #ffff00;
-    background-color: #0000ff;
-}
-#table1 {
-    background-color: #00ff00;
-}
-#table2 {
-    background-color: #ff0000;
-}
 th, td {
     padding: 10px;
-}
-col {
-    background-color: #0000ff55;
 }
 #background {
     background-color: #ffffffaa;
@@ -37,6 +23,7 @@ table {
     width: 80%;
     background-color: #ffffff;
     margin: auto;
+    margin-top: 144px;
     border-left: 1px solid #00000055;
     border-right: 1px solid #00000055;
 }
@@ -46,7 +33,10 @@ footer {
 header {
     border-bottom: #000000 solid;
     padding-top: 20px;
-
+    position: fixed;
+    top: 0;
+    height: 121px;
+    width: 100%;
 }
 .articleHeader {
     border-top: 2px solid #000000;
@@ -181,4 +171,22 @@ nav {
 }
 #citationlink {
     font-size: 10px;
+}
+#aside {
+    position: fixed;
+    width: 9%;
+    margin: 2px;
+    margin-right: 0;
+    border: black 1px solid;
+    background-color: white;
+}
+aside {
+    background-color: #8ea8eb;
+    box-sizing: border-box;
+    border: #2f51b1 solid 3px;
+}
+@media only screen and (max-width: 880px) {
+    #aside {
+        display: none;
+    }
 }
