@@ -80,6 +80,9 @@ a:hover {
 .plans {
     width: 50%;
 }
+.plans:hover {
+    width: 80%;
+}
 a {
     font-size: 20px;
     text-decoration: none;
