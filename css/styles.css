@@ -9,16 +9,28 @@ body {
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+/*
+this makes everything in the site look a certain way unless otherwise specified
+*/
 th, td {
     padding: 10px;
 }
+/*
+every th and td has 10px of padding
+*/
 #background {
     background-color: #ffffffaa;
     width: 100%;
 }
+/*
+this makes the background have a semitransparent white layer on it
+*/
 table {
     width: 100%;
 }
+/*
+this makes every table fit the whole thing its in
+*/
 #body {
     width: 80%;
     background-color: #ffffff;
@@ -27,6 +39,9 @@ table {
     border-left: 1px solid #00000055;
     border-right: 1px solid #00000055;
 }
+/*
+this id makes it so that the body can look smaller then the entire page
+*/
 footer {
     border-top: #000000 solid;
 }
@@ -38,16 +53,25 @@ footer {
     height: 121px;
     width: 100%;
 }
+/*
+this mostly just makes it so the header is stuck at the top
+*/
 .articleHeader {
     border-top: 2px solid #000000;
     border-bottom: 2px solid #000000;
     padding: 20px;
     background-color: #8ea8eb;
 }
+/*
+this makes it so the headers in the body look a certain way
+*/
 .headerFooter {
     background-color: #2f51b1;
     color: #ffffff;
 }
+/*
+this makes the header and footer look the same
+*/
 td {
     width: 50%;
 }
@@ -81,7 +105,7 @@ a:hover {
     width: 50%;
 }
 .plans:hover {
-    width: 80%;
+    width: 70%;
 }
 a {
     font-size: 20px;
@@ -101,11 +125,17 @@ a {
         display: none;
     }
 }
+/*
+this hides the nav in the header when the screen gets too small
+*/
 @media only screen and (max-width: 720px) {
     .logo {
         display: none;
     }
 }
+/*
+this hides certain things in the header and footer when the screen is too small
+*/
 #th {
     font-size: 30px;
 }
@@ -116,6 +146,9 @@ a {
         text-align: center;
     }
 }
+/*
+this realigns the form data when the screen is to small
+*/
 @media only screen and (max-width: 720px) {
     .td2 {
         display: block;
@@ -123,9 +156,15 @@ a {
         text-align: center;
     }
 }
+/*
+same as above (this probably isnt needed i could have given them the same tag but oh well)
+*/
 nav:hover{
     background-color: #8ea8eb;
 }
+/*
+this "hides" the nav links when one is hovered on
+*/
 nav {
     color: #8ea8eb;
     margin: auto;
@@ -142,14 +181,23 @@ nav {
         display: none;
     }
 }
+/*
+this makes the mini nav hidden when the screen is big enough for the regular nav
+*/
 #mininav {
     width: 100%;
 }
+/*
+the mini nav is what shows instead of the nav when the screen is too small
+*/
 @media only screen and (max-width: 720px) {
     .indexsectioncontent img {
         width: 90%;
     }
 }
+/*
+this makes the mini nav show
+*/
 .dropdowncontent {
     display:none;
     position: absolute;
@@ -157,15 +205,24 @@ nav {
     border: 1px solid #000000;
     padding: 12px 16px;
 }
+/*
+this is what determines how the content shows in the mini nav
+*/
 .dropdown:hover .dropdowncontent {
     display: block;
 }
+/*
+this describes when the content shows in the mini nav
+*/
 .dropdown {
   position: relative;
   display: inline-block;
   font-size: 20px; 
   color: #8ea8eb;
 }
+/*
+this makes the mini nav look like all other links so that people can still figure out what to do with it
+*/
 #logoimage {
     width: 100%;
 }
@@ -193,6 +250,9 @@ aside {
         display: none;
     }
 }
+/*
+this hides the aside before it looks wrong
+*/
 #topofpage {
     width: 0;
     height: 0;
@@ -202,16 +262,25 @@ aside {
         width: 130px;
     }
 }
+/*
+this makes specifically the rubiks brand logo image not resize after a certain point so that the header doesnt break
+*/
 @media only screen and (max-height: 745px) {
     #aside {
         display: none;
     }
 }
+/*
+this also hides the aside before it looks wrong
+*/
 @media only screen and (max-width: 720px) {
     .image {
         width: 90%;
     }
 }
+/*
+this makes every image resize with the screen when the screen is small
+*/
 /*
 Date Modified: July 21 2021
 Modified By: Xander Bezanson

@@ -132,6 +132,9 @@
                                             Contact Name
                                         </td>
                                         <td class="td2">
+                                            <!--
+                                               name to use when contacting person 
+                                            -->
                                             <input required name="ContactName" type="text"/>
                                         </td>
                                     </tr>
@@ -140,6 +143,9 @@
                                             Phone Number
                                         </td>
                                         <td class="td2">
+                                            <!--
+                                               phone number to use in case email does not work 
+                                            -->
                                             <input required name="PhoneNumber" type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Ex: 123-456-7890"/>
                                         </td>
                                     </tr>
@@ -148,6 +154,9 @@
                                             Email Address
                                         </td>
                                         <td class="td2">
+                                            <!--
+                                               email address 
+                                            -->
                                             <input required type="email" name="Email" placeholder="Ex: name@gmail.com">
                                         </td>
                                     </tr>
@@ -161,6 +170,9 @@
                                             Address
                                         </td>
                                         <td class="td2">
+                                            <!--
+                                               home address (for mailing) 
+                                            -->
                                             <input required type="text" name="Address">
                                         </td>
                                     </tr>
@@ -169,6 +181,9 @@
                                             City
                                         </td>
                                         <td class="td2">
+                                            <!--
+                                               recipients city 
+                                            -->
                                             <input required type="text" name="City" minlength="2" maxlength="3" placeholder="Ex: HFX">
                                         </td>
                                     </tr>
@@ -177,6 +192,9 @@
                                             Province
                                         </td>
                                         <td class="td2">
+                                            <!--
+                                               recipients province 
+                                            -->
                                             <select required name="Province">
                                                 <option value="Blank"></option>
                                                 <option value="Alberta">Alberta</option>
@@ -200,6 +218,9 @@
                                             Postal Code
                                         </td>
                                         <td class="td2">
+                                            <!--
+                                               recipients postal code 
+                                            -->
                                             <input required type="text" name="PostalCode" pattern="[A-Za-z][0-9][A-Za-z][0-9][A-Za-z][0-9]" placeholder="Ex: A1B2C3">
                                         </td>
                                     </tr>
@@ -213,6 +234,9 @@
                                             Favourite Colour
                                         </td>
                                         <td class="td2">
+                                            <!--
+                                                in reality the colour would be here for a custom item in the giveaway but since its a fake giveaway ¯\_(ツ)_/¯
+                                            -->
                                             <input type="color" name="Colour">
                                         </td>
                                     </tr>
@@ -221,6 +245,9 @@
                                             Time since you started<br>cubing in Years
                                         </td>
                                         <td class="td2">
+                                            <!--
+                                               this would be to figure out what items should be sent 
+                                            -->
                                             <input type="number" min="0" max="100" name="TimeCubing">
                                         </td>
                                     </tr>
@@ -229,6 +256,9 @@
                                             Fastest solve in seconds
                                         </td>
                                         <td class="td2">
+                                            <!--
+                                               this would be for knowing how good the person is at solving, again for items sent 
+                                            -->
                                             <input type="number" min="0" max="1000" name="FastestSolve">
                                         </td>
                                     </tr>
@@ -237,6 +267,9 @@
                                             Favourite twist puzzle type
                                         </td>
                                         <td class="td2">
+                                            <!--
+                                               this would be for a bonus item 
+                                            -->
                                             <input type="text" name="FavouritePuzzleType">
                                         </td>
                                     </tr>
