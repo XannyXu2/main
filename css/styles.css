@@ -30,7 +30,7 @@ table {
 footer {
     border-top: #000000 solid;
 }
-header {
+#header {
     border-bottom: #000000 solid;
     padding-top: 20px;
     position: fixed;
@@ -190,3 +190,26 @@ aside {
         display: none;
     }
 }
+#topofpage {
+    width: 0;
+    height: 0;
+}
+@media only screen and (min-width: 1440px) {
+    #logoimage {
+        width: 130px;
+    }
+}
+@media only screen and (max-height: 745px) {
+    #aside {
+        display: none;
+    }
+}
+@media only screen and (max-width: 720px) {
+    .image {
+        width: 90%;
+    }
+}
+/*
+Date Modified: July 21 2021
+Modified By: Xander Bezanson
+*/

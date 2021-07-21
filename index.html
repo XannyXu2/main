@@ -1,34 +1,73 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <!--
+            Name of the site
+        -->
         <title>
             Final Project
         </title>
+        <!--
+           Icons were not covered in class but I wanted to do one 
+        -->
         <link rel="icon" href="img/icon.png">
+        <!--
+           I used the one stylesheet for every page 
+        -->
         <link rel="stylesheet" href="css/styles.css">
+        <!--
+           Viewport was required. 
+        -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!--
-            Date Modified: July 19 2021
+            Date Modified: July 21 2021
             Modified By: Xander Bezanson
         -->
     </head>
     <body>
-        <header class="headerFooter" id="topofpage">
-            <table id="tableheader">
+        <!--
+           So my body is made semi-confusingly, but I am sure you will understand 
+        -->
+        <header id="topofpage">
+            <!--
+               This header doesn't show even though it isn't hidden because it is behind the next header. This header is here so that the user can return to the top of the page 
+            -->
+            Top of the Page
+        </header>
+        <header class="headerFooter" id="header">
+            <!--
+               This is the actual header that displays 
+            -->
+            <table>
+                <!--
+                   I used tables for almost all of my positioning of elements 
+                -->
                 <tr>
                     <td class="logo">
+                        <!--
+                           This is just the current rubik's logo 
+                        -->
                         <img src="img/rubiks.png" id="logoimage">
                     </td>
                     <th class="headertext">
+                        <!--
+                           This is both the site name and a link to the home page 
+                        -->
                         <a href="index.html" id="th">
                             Rubiks Cube Site
                         </a>
                     </th>
                     <td class="logo">
+                        <!--
+                           This td is here just so that things align correctly 
+                        -->
                     </td>
                 </tr>
                 <tr>
                     <td id="mininav">
+                        <!--
+                           As you can see this is not a nav. This is what replaces the regular nav bar on phones, it shows on rollover 
+                        -->
                         <article class="dropdown">
                             Navigate Site
                             <article class="dropdowncontent">
@@ -57,6 +96,10 @@
                 </tr>
                 <tr>
                     <td colspan="3">
+                        <!--
+                           This is the real nav that will show for a majority of users of THIS site 
+                           Also I use colspan elsewhere as well, but everywhere I used it was for the same reason, which was just to keep the CRAP principles
+                        -->
                         <nav>
                             <a href="index.html">
                                 Home Page
@@ -83,28 +126,52 @@
             </table>
         </header>
         <section id="background">
+            <!--
+               The section with the "background" id is what gives the background a white layer 
+            -->
             <section id="aside">
+                <!--
+                   This section is literally just here so that every page has an article with an aside in it, but I did work hard to make it look nice 
+                -->
                 <article>
-                    This site was developed by Xander Bezanson
+                    <!--
+                       This is an explanation of why the site exists 
+                    -->
+                    This site was created as my final project for the course WEBD1000.<br>I hope you enjoy looking through it and hopefully I achieved a good mark.<br>Thank you for your visit.
                     <aside>
+                        <!--
+                           This explains that I made the site 
+                        -->
                         This site was developed by Xander Bezanson
                     </aside>
                 </article>
             </section>
             <section id="body">
+                <!--
+                   This is where all the content goes that changes between pages 
+                -->
                 <table>
                     <tr>
                         <th colspan="2">
                             <article class="articleHeader">
+                                <!--
+                                   every article with the class "articleHeader" is just a mini header within the body 
+                                -->
                                 Types of Cubes
                             </article>
                         </th>
                     </tr>
                     <tr>
                         <td class="indexarticlecontent">
+                            <!--
+                               all the "indexarticlecontent" is the text in the body on this page 
+                            -->
                             There are many types of Twist Puzzles, the most popular being the Rubik's Cube. For more information click the link to the right.
                         </td>
                         <td class="indexsectioncontent">
+                            <!--
+                               all the "indexsectioncontent" is everything else in the body on this page 
+                            -->
                             <a href="types.html">
                                 <img src="img/megaminx.png"><br>Click Here to see several types
                             </a>
@@ -165,21 +232,37 @@
             </section>
         </section>
         <footer class="headerFooter">
+            <!--
+               the footer is pretty regular 
+            -->
             <table>
                 <tr>
                     <td class="footerlogo">
                         <img src="img/logo.png" class="logo" id="devlogo">
                     </td>
                     <td>
-                        <a href="#topofpage">To top of page</a>
+                        <a href="#topofpage">
+                            <!--
+                               this link brings you to the top of whatever page you are on 
+                            -->
+                            To top of page
+                        </a>
                         <br>
                         <br>
                         <a href="imagecitation.html" id="citationlink">
+                            <!--
+                               this link brings you to the legal issue avoidance i mean citation page 
+                            -->
                             All images and their rights belong to their respective owners. Click here for more information.
                         </a>
                     </td>
                     <td id="helplink">
-                        <a href="helpticket.html">Help Ticket</a>
+                        <a href="helpticket.html">
+                            <!--
+                               this brings you to the help page 
+                            -->
+                            Help Ticket
+                        </a>
                     </td>
                 </tr>
             </table>
